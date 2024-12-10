@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.5)  10 DEC 2024 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.5)  10 DEC 2024 18:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,11 +685,11 @@ File: Title/Unige-logo.jpeg Graphic file (type jpg)
 <use Title/Unige-logo.jpeg>
 Package pdftex.def Info: Title/Unige-logo.jpeg  used on input line 9.
 (pdftex.def)             Requested size: 142.26378pt x 142.26761pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -702,10 +702,26 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [1]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.41992pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.41992pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.41992pt}.
+
+[1]
 \openout2 = `Nomenclature.aux'.
 
- (./Nomenclature.tex) [2
+ (./Nomenclature.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.41992pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.41992pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.41992pt}.
+
+[2
 
 ] (./Main/AssignmentDescription.tex
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5.
@@ -714,7 +730,15 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
- [3
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.41992pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.41992pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.41992pt}.
+
+[3
 
 
 ]
@@ -725,15 +749,36 @@ File: Resources/cad_model-1.pdf Graphic file (type pdf)
 <use Resources/cad_model-1.pdf>
 Package pdftex.def Info: Resources/cad_model-1.pdf  used on input line 27.
 (pdftex.def)             Requested size: 386.95749pt x 541.76122pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.41992pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.41992pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.41992pt}.
+
 [4 <./Resources/cad_model-1.pdf, page is rotated 90 degrees>]) (./Main/Exercise1.tex
 Overfull \hbox (20.56747pt too wide) detected at line 75
 []
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.41992pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.41992pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.41992pt}.
+
 [5]
 Overfull \hbox (10.07118pt too wide) detected at line 167
 []
  []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.41992pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.41992pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.41992pt}.
 
 [6]
 <Resources/MotionOfTheManipulator.png, id=74, 3432.825pt x 2043.635pt>
@@ -751,7 +796,31 @@ File: Resources/FinalConfiguration.png Graphic file (type png)
 <use Resources/FinalConfiguration.png>
 Package pdftex.def Info: Resources/FinalConfiguration.png  used on input line 253.
 (pdftex.def)             Requested size: 362.77264pt x 215.94447pt.
-) [7] [8 <./Resources/MotionOfTheManipulator.png (PNG copy)> <./Resources/MotionOfTheManipulator_top.png (PNG copy)>] (./Appendix/Appendix.tex) [9 <./Resources/FinalConfiguration.png (PNG copy)>] 
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.41992pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.41992pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.41992pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.41992pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.41992pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.41992pt}.
+
+[8 <./Resources/MotionOfTheManipulator.png (PNG copy)> <./Resources/MotionOfTheManipulator_top.png (PNG copy)>] (./Appendix/Appendix.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.41992pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.41992pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.41992pt}.
+
+[9 <./Resources/FinalConfiguration.png (PNG copy)>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (/Users/gianmarco/University/ModelingAndControlOfManipulators/Assigment2/Report/.texpadtmp/main.aux (/Users/gianmarco/University/ModelingAndControlOfManipulators/Assigment2/Report/.texpadtmp/Nomenclature.aux))
  ***********
@@ -765,13 +834,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  14828 strings out of 474116
  268301 string characters out of 5743683
- 1963187 words of memory out of 5000000
+ 1964187 words of memory out of 5000000
  36941 multiletter control sequences out of 15000+600000
  588354 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,13n,93p,1129b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/gianmarco/University/ModelingAndControlOfManipulators/Assigment2/Report/.texpadtmp/main.pdf (10 pages, 3915032 bytes).
+Output written on /Users/gianmarco/University/ModelingAndControlOfManipulators/Assigment2/Report/.texpadtmp/main.pdf (10 pages, 3915765 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream
