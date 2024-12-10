@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is '/Users/gianmarco/University/ModelingAndControlOfManipulators/Assigment2/Report/.texpadtmp/main.blg'
+[26] biber-darwin:340> INFO - === Tue Dec 10, 2024, 11:15:13
+[33] Biber.pm:419> INFO - Reading '/Users/gianmarco/University/ModelingAndControlOfManipulators/Assigment2/Report/.texpadtmp/main.bcf'
+[59] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[65] bbl.pm:660> INFO - Writing '/Users/gianmarco/University/ModelingAndControlOfManipulators/Assigment2/Report/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[65] bbl.pm:763> INFO - Output to /Users/gianmarco/University/ModelingAndControlOfManipulators/Assigment2/Report/.texpadtmp/main.bbl
+[65] Biber.pm:131> WARN - The file '/Users/gianmarco/University/ModelingAndControlOfManipulators/Assigment2/Report/.texpadtmp/main.bcf' does not contain any citations!
+[65] Biber.pm:133> INFO - WARNINGS: 1
