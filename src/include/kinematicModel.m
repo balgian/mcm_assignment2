@@ -24,18 +24,23 @@ classdef kinematicModel < handle
 
             % TO DO
             %% Compute the simple Jacobian
+            bTe = self.gm.getTransformWrtBase(self.gm.jointNumber);
+            b_r_e = bTe(1:3,4);
             jJb_A = zeros(3, self.gm.jointNumber);
-            jJb_L = [zeros(2, self.gm.jointNumber); 
-                ones(1,self.gm.jointNumber)];
-            for j = 1:self.gm.jointNumber
-                if ~self.gm.jointType(j)
-                    jJb_A(:, j) = [0; 0; 1];
+            jJb_L = zeros(3, self.gm.jointNumber);
 
-                    bTj = self.gm.getTransformWrtBase(j);
-                    b_r_j_4 = bTj * [0; 0; 0; 1];
-                    b_r_j = b_r_j_4(1:end-1);
-                    jJb_L(:, j) = cross([0; 0; 1], b_r_j);
+            for j = 1:self.gm.jointNumber
+                bTj = self.gm.getTransformWrtBase(j);
+                b_k_z = bTj(1:3,1:3)*[0; 0; 1];
+                if ~self.gm.jointType(j)
+                    jJb_A(:, j) = b_k_z;
+                    
+                    b_r_j = bTj(1:3,4);
+                    j_r_e = b_r_e - b_r_j;
+                    jJb_L(:, j) = cross(b_k_z, j_r_e);
+                    continue;
                 end
+                jJb_L(:, j) = b_k_z;
             end
             self.J = [jJb_A; jJb_L];
         end
